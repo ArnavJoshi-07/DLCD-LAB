@@ -7,6 +7,7 @@ initial begin
     #100 a = 0; b = 1;
     #100 a = 1; b = 0;
     #100 a = 1; b = 1;
+    #100 $finish;
 end
 initial begin
     $monitor($time, "a = %b, b = %b, c = %b",a,b,c); //binary output
