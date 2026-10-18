@@ -1,0 +1,2 @@
+iverilog -o test lib.v regfile.v tb_regfile.v
+
