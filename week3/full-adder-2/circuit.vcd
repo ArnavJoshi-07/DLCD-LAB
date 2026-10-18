@@ -1,0 +1,212 @@
+$date
+	Sun Aug 23 21:00:24 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 1 ! sum1 $end
+$var wire 1 " cout1 $end
+$var reg 3 # i1 [2:0] $end
+$var reg 1 $ i2 $end
+$var integer 32 % i [31:0] $end
+$scope module g1 $end
+$var wire 3 & i1 [2:0] $end
+$var wire 1 $ i2 $end
+$var wire 1 ' x2 $end
+$var wire 1 ( x1 $end
+$var wire 1 ! sum1 $end
+$var wire 1 " cout1 $end
+$scope module fa_1 $end
+$var wire 1 ) a $end
+$var wire 1 * b $end
+$var wire 1 + c $end
+$var wire 1 , w3 $end
+$var wire 1 - w2 $end
+$var wire 1 . w1 $end
+$var wire 1 ( sum $end
+$var wire 1 ' cout $end
+$scope module g1 $end
+$var wire 1 ) a $end
+$var wire 1 * b $end
+$var wire 1 + c $end
+$var wire 1 ( y $end
+$upscope $end
+$scope module g2 $end
+$var wire 1 ) a $end
+$var wire 1 * b $end
+$var wire 1 . c $end
+$upscope $end
+$scope module g3 $end
+$var wire 1 ) a $end
+$var wire 1 + b $end
+$var wire 1 - c $end
+$upscope $end
+$scope module g4 $end
+$var wire 1 * a $end
+$var wire 1 + b $end
+$var wire 1 , c $end
+$upscope $end
+$scope module g5 $end
+$var wire 1 . a $end
+$var wire 1 - b $end
+$var wire 1 , c $end
+$var wire 1 ' y $end
+$upscope $end
+$upscope $end
+$scope module fa_2 $end
+$var wire 1 ( a $end
+$var wire 1 ' b $end
+$var wire 1 $ c $end
+$var wire 1 / w3 $end
+$var wire 1 0 w2 $end
+$var wire 1 1 w1 $end
+$var wire 1 ! sum $end
+$var wire 1 " cout $end
+$scope module g1 $end
+$var wire 1 ( a $end
+$var wire 1 ' b $end
+$var wire 1 $ c $end
+$var wire 1 ! y $end
+$upscope $end
+$scope module g2 $end
+$var wire 1 ( a $end
+$var wire 1 ' b $end
+$var wire 1 1 c $end
+$upscope $end
+$scope module g3 $end
+$var wire 1 ( a $end
+$var wire 1 $ b $end
+$var wire 1 0 c $end
+$upscope $end
+$scope module g4 $end
+$var wire 1 ' a $end
+$var wire 1 $ b $end
+$var wire 1 / c $end
+$upscope $end
+$scope module g5 $end
+$var wire 1 1 a $end
+$var wire 1 0 b $end
+$var wire 1 / c $end
+$var wire 1 " y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+b0 &
+b0 %
+0$
+b0 #
+0"
+0!
+$end
+#10
+b1 %
+#20
+1"
+10
+1(
+1)
+0!
+b10 %
+b1 #
+b1 &
+1$
+#30
+0"
+0)
+1*
+1!
+00
+b11 %
+b10 #
+b10 &
+0$
+#40
+1/
+1'
+0(
+1"
+1.
+1)
+0!
+00
+b100 %
+b11 #
+b11 &
+1$
+#50
+0'
+01
+0.
+1(
+0"
+0)
+0*
+1+
+1!
+0/
+b101 %
+b100 #
+b100 &
+0$
+#60
+1/
+1'
+0(
+1"
+1-
+1)
+0!
+00
+b110 %
+b101 #
+b101 &
+1$
+#70
+0-
+1,
+0"
+0)
+1*
+1!
+0/
+b111 %
+b110 #
+b110 &
+0$
+#80
+11
+10
+1(
+1.
+1-
+1"
+1)
+1!
+1/
+b1000 %
+b111 #
+b111 &
+1$
+#90
