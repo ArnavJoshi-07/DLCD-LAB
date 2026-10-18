@@ -1,0 +1,63 @@
+$date
+	Wed Sep  9 21:39:22 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_circuit $end
+$var wire 1 ! o $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$var reg 1 $ s $end
+$var integer 32 % i [31:0] $end
+$scope module madmux $end
+$var wire 1 " i0 $end
+$var wire 1 # i1 $end
+$var wire 1 $ s $end
+$var wire 1 ! y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 %
+0$
+0#
+0"
+0!
+$end
+#20
+b10 %
+1$
+#40
+b11 %
+1#
+0$
+#60
+1!
+b100 %
+1$
+#80
+b101 %
+1"
+0#
+0$
+#100
+0!
+b110 %
+1$
+#120
+1!
+b111 %
+1#
+0$
+#140
+b1000 %
+1$
+#160
